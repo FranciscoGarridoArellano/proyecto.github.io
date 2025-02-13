@@ -1,0 +1,7 @@
+[
+    { "nombre": "Francisco", "usuario": "admin", "contraseña": "1234", "tipo": "admin" },
+    { "nombre": "Lamadrid", "usuario": "admin2", "contraseña": "1043", "tipo": "admin" },
+    { "nombre": "Sebastian", "usuario": "usuario1", "contraseña": "a123", "tipo": "usuario" },
+    { "nombre": "Juan","usuario": "usuario2", "contraseña": "a2025", "tipo": "usuario" },
+    { "nombre": "Victor","usuario": "vjuniormartinez@unibarranquilla.edu.co", "contraseña": "Vmartinez1905", "tipo": "admin"}
+]

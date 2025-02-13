@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Control IoT</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../img/imagen.png" alt="Logo Universidad" title="Logo Universidad" class="logo">
+            <h1>Panel de Administración</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="admin.html">Inicio</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="AireAdmin.html">Aire</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Bienvenido, <span id="nombreUsuario"></span></h2> 
+        <p>En esta sección puedes ver algunos detalles personales.</p>
+
+<br><br>
+        <section id="perfil">
+            <h3>Mi Perfil</h3>
+            <div class="perfil-info">
+                <div class="perfil-box">
+                    <p><strong>Tipo de Rol:</strong> <span id="rolUsuario"></span></p> 
+                    <p><strong>Usuario:</strong> <span id="usuarioNombre"></span></p> 
+                </div>
+            </div>
+        </section>
+    </main>
+<br><br>
+    <div class="pie">
+        Derechos Reservados. <br>
+        Teléfono: 6053505050 <br>
+        Soledad - Colombia
+    </div>
+
+    <script src="../js/perfil.js"></script>
+</body>
+</html>

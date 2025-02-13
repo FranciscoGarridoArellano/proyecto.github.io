@@ -1,0 +1,95 @@
+body {
+    background-color: #1f3a5c; 
+    color: white; 
+    font-family: Arial; 
+    margin: 0; 
+}
+
+header {
+    background-color: #f8f9fa;
+    color: #1f3a5c;
+    padding: 10px;
+    border: 2px solid #f8f9fa;
+    position: relative; 
+    height: 60px; 
+}
+
+.logo {
+    width: 160px; 
+    height: auto;
+    position: absolute;
+    left: 20px; 
+    top: 10px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    line-height: 80px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.listacontacto{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    color: black;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.contacto i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #1f3a5c;
+}
+.barranav {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 30px; 
+}
+
+nav {
+    background-color: #ffbf0c; 
+    padding: 15px 30px; 
+    border-radius: 15px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1f3a5c;
+    font-size: 20px; 
+    padding: 12px 20px; 
+}
+
+nav ul li a:hover {
+    background-color: #1f3a5c;
+    color: #fff;
+    border-radius: 8px; 
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,28 @@
+#perfil {
+    margin-top: 20px;
+}
+
+.perfil-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.perfil-box {
+    display: inline-block;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border: 2px solid #1f3a5c; /* Borde del color del tema */
+    border-radius: 8px;
+    width: 250px;
+}
+
+.perfil-box p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0; /* Margen para mejorar la legibilidad */
+}
+
+.perfil-box strong {
+    color: #1f3a5c; /* Color del texto del título */
+}
+

@@ -1,0 +1,36 @@
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+.info {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.toggle-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.toggle-button.off {
+    background-color: red;
+}
+.outer-box {
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

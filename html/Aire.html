@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuracion del Aire - Control IoT</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/aire.css">
+    <link rel="stylesheet" href="../css/usuario.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../img/imagen.png" alt="Logo Universidad" title="Logo Universidad" class="logo">
+            <h1>Panel de Administración</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="usuario.html">Inicio</a></li>
+            <li><a href="perfilusuario.html">Perfil</a></li>
+            <li><a href="Aire.html">Aire</a></li>
+        </ul>
+    </nav>
+
+    <main>
+    <h2>Bienvenido, a la seccion del Aire.</h2>
+    <p>En esta sección podras encender y apagar el sistema de Aire a tu gusto, ademas de ver su temperatura a tiempo real y su humedad.</p>
+<br><br>
+        <section id="Aire">
+            <h3>Estado del Aire Acondicionado</h3>
+            <div class="container">
+                <div id="status" class="status">Aire Acondicionado Prendido</div>
+                <div id="temperature" class="info">Temperatura: "Numero a cambiar"</div>
+                <div id="humidity" class="info">Humedad: "Numero a cambiar"</div>
+            </div>
+            <button id="toggleButton" class="toggle-button">Apagar</button>
+        </section>
+    </main>
+<br><br>
+    <div class="pie">
+        www.mipagina.com <br>
+        Teléfono: 6053505050 <br>
+        Soledad - Colombia
+    </div>
+
+    <script src="../js/aireboton.js"></script>
+</body>
+</html>
